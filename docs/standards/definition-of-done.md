@@ -12,6 +12,8 @@ orchestrator check this list; the pull request template repeats it (from H5).
 - [ ] `npm run format:check` passes.
 - [ ] No secrets, `.env` files or real personal data in the change.
 
+Tip: `npm run check` runs lint, typecheck and format:check in one command; `npm test` still runs separately.
+
 ## When it applies
 
 - [ ] New behavior has tests; a bug fix has a test that failed before the fix.

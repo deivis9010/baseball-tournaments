@@ -12,6 +12,7 @@
       "Bash(npm run test:*)",
       "Bash(npm run format)",
       "Bash(npm run format:check)",
+      "Bash(npm run check)",
       "Bash(npm run build)",
       "Bash(npm run build:*)",
       "Bash(npx prettier:*)",

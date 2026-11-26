@@ -12,6 +12,7 @@ npm ci                      # install (never `npm install` in CI)
 docker compose up -d        # local MongoDB replica set on localhost:27017
 npm run lint                # ESLint, zero warnings allowed
 npm run typecheck           # tsc in every workspace
+npm run check               # lint + typecheck + format:check
 npm test                    # tests in every workspace
 npm run format              # Prettier
 ```

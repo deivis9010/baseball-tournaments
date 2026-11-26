@@ -9,15 +9,14 @@ The orchestrator (`/iterate`) updates this file when an iteration closes.
 - **H0 — Monorepo skeleton** (2026-11-26): npm workspaces, strict TypeScript, ESLint (no `any`, undeclared
   dependencies, generic/domain boundary), Prettier, husky + lint-staged + commitlint, VS Code settings,
   local MongoDB replica set.
+- **H1 — AI tooling and project memory** (2026-11-26): `CLAUDE.md`, `docs/` (architecture, status,
+  glossary, standards, AI workflow guide, domain), ADRs 0001–0005, `.claude/` (agents, skills, rules,
+  settings, hooks, `educational` output style), root `npm run check` script. Validated by a trial
+  `/iterate` run (planner → developer → tester) that added `npm run check`.
 
 ## In progress
 
-- **H1 — AI tooling and project memory**
-  - [x] `CLAUDE.md`, `docs/` (architecture, status, glossary, standards, AI workflow guide)
-  - [x] ADRs 0001–0005
-  - [x] `.claude/`: agents, skills, rules, settings, hooks, `educational` output style
-  - [x] `docs/domain/`: data model, rules and screens translated from the planning notes
-  - [ ] Done when: a trial `/iterate` run goes planner → developer → tester without odd interventions
+- Nothing. Next up: H2.
 
 ## Next
 

@@ -12,3 +12,4 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Project memory for AI and people: `CLAUDE.md`, architecture, status, glossary, standards, AI workflow guide and domain docs.
 - ADRs 0001–0005: recording decisions, stack, npm workspaces, generic/domain boundary, languages.
 - Claude Code tooling: `planner`, `developer` and `tester` agents, eight skills (`/iterate` and others), rules by folder, `educational` output style, and hooks that format edited files and block access to secrets.
+- `npm run check` script that runs lint, typecheck and format check in sequence.
