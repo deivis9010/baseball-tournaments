@@ -3,7 +3,7 @@
 Web app to manage amateur baseball tournaments: rosters, schedules, games, standings and stats.
 It starts with the aluminum-bat tournament of a local league in Mérida, Yucatán.
 
-> Work in progress. See `docs/status.md` (coming soon) for the current state.
+> Work in progress. See [docs/status.md](docs/status.md) for the current state and [CLAUDE.md](CLAUDE.md) for the rules agents follow.
 
 ## Requirements
 
