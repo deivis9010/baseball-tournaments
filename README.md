@@ -3,7 +3,7 @@
 Web app to manage amateur baseball tournaments: rosters, schedules, games, standings and stats.
 It starts with the aluminum-bat tournament of a local league in Mérida, Yucatán.
 
-> Work in progress. See `docs/status.md` (coming soon) for the current state.
+> Work in progress. See [docs/status.md](docs/status.md) for the current state and [CLAUDE.md](CLAUDE.md) for the rules agents follow.
 
 ## Requirements
 
@@ -21,15 +21,16 @@ npm run typecheck
 
 ## Scripts
 
-| Script                 | What it does                     |
-| ---------------------- | -------------------------------- |
-| `npm run lint`         | ESLint over the whole repository |
-| `npm run lint:fix`     | ESLint with automatic fixes      |
-| `npm run format`       | Prettier write                   |
-| `npm run format:check` | Prettier check (used in CI)      |
-| `npm run typecheck`    | Type check every workspace       |
-| `npm test`             | Tests in every workspace         |
-| `npm run build`        | Build every workspace            |
+| Script                 | What it does                                 |
+| ---------------------- | -------------------------------------------- |
+| `npm run lint`         | ESLint over the whole repository             |
+| `npm run lint:fix`     | ESLint with automatic fixes                  |
+| `npm run format`       | Prettier write                               |
+| `npm run format:check` | Prettier check (used in CI)                  |
+| `npm run typecheck`    | Type check every workspace                   |
+| `npm run check`        | Lint, typecheck and format check in sequence |
+| `npm test`             | Tests in every workspace                     |
+| `npm run build`        | Build every workspace                        |
 
 ## Structure
 
